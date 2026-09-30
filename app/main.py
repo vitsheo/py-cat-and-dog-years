@@ -1,5 +1,5 @@
 def get_human_age(cat_age: int, dog_age: int) -> list[int]:
-    # Обчислення людського віку для кота
+    # Розрахунок людських років для кота
     if cat_age < 15:
         cat_human = 0
     elif cat_age < 24:
@@ -7,7 +7,7 @@ def get_human_age(cat_age: int, dog_age: int) -> list[int]:
     else:
         cat_human = 2 + (cat_age - 24) // 4
 
-    # Обчислення людського віку для собаки
+    # Розрахунок людських років для собаки
     if dog_age < 15:
         dog_human = 0
     elif dog_age < 24:
